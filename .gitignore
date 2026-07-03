@@ -1,0 +1,44 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Database (regenerate with `python database.py`)
+medical.db
+*.db-journal
+
+# Logs
+*.log
+expert_system.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Exported reports (user-generated, not part of the repo)
+diagnosis_*.pdf
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
