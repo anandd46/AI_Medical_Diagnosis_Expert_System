@@ -1,4 +1,3 @@
-
 """
 backward_chaining.py
 =====================
